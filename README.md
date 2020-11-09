@@ -9,5 +9,6 @@ The appearance of the BERT (*Bidiractional Encoder Representaions from Transform
 ## References
 <a id="1">[1]</a> 
 Chris McCormick. The Inner Workings of BERT (2020)
+
 <a id="2">[2]</a>
 [Bert: Pre-training of deep bidirectional transformers for language understanding](https://arxiv.org/pdf/1810.04805.pdf)
