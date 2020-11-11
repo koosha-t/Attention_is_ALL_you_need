@@ -6,7 +6,7 @@ The BERT model is a result of a series of continuous progress in utilizing deep 
 
 <p align="center">
   <img src='assets/BERT.jpeg' width=50% alt/>
-  <em> The BERT Cake </em>
+  <em align="left"> The BERT Cake </em>
 </p>
 
 
