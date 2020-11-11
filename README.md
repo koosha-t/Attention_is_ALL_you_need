@@ -10,6 +10,8 @@ The BERT model is a result of a series of continuous progress in utilizing deep 
 </p>
 
 
+![my image]('/assets/BERT.jpeg'#center)  
+
 ## References
 <a id="1">[1]</a> 
 Chris McCormick. The Inner Workings of BERT (2020)
