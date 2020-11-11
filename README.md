@@ -12,6 +12,9 @@ The BERT model is a result of a series of continuous progress in utilizing deep 
 </p>
 
 
+Understanding the lower levels of the BERT cake, on which the BERT was evolved, seems necessary before diving deep into BERT. I would highly recommend to go over [[5]](#5) and [[6]](#6), blogs that contains amazing illustrations around these concepts, to have an overview of the necessary concepts.
+
+
 ## References
 <a id="1">[1]</a> 
 Chris McCormick. The Inner Workings of BERT (2020)
@@ -24,3 +27,9 @@ Chris McCormick. The Inner Workings of BERT (2020)
 
 <a id="4">[4]</a>
 [BERT Research - Ep. 1 - Key Concepts & Sources](http://mccormickml.com/2019/11/11/bert-research-ep-1-key-concepts-and-sources/)
+
+<a id="5">[5]</a>
+[Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+
+<a id="6">[6]</a>
+[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
