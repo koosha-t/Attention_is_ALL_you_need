@@ -5,12 +5,10 @@ The appearance of the BERT (*Bidiractional Encoder Representaions from Transform
 The BERT model is a result of a series of continuous progress in utilizing deep learning models for NLP tasks. Figure 1 shows the hierarchy of advancements  leading to BERT. I got the idea of this figure from [[3]](#3) written by Chris McCormick. So the credit shoud go to him! He called such an hierarchy the BERT mountain, however, I'd like to call it the BERT Cake here as it more looks like a cake to me!
 
 <p align="center">
-  <img src='assets/BERT.jpeg' width=50% alt/>
+  <img src='assets/BERT.jpeg' width=50% alt="BERT Cake"/>
   <em align="left"> The BERT Cake </em>
 </p>
 
-
-![my image]('/assets/BERT.jpeg'#center)  
 
 ## References
 <a id="1">[1]</a> 
