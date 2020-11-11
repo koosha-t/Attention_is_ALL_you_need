@@ -10,7 +10,7 @@ The BERT model is a result of a series of continuous progress in utilizing deep 
 <p align="center">
   <em> Fig1: The BERT Cake </em>
 </p>
-
+<br/><br/>
 
 Understanding the lower levels of the BERT cake, on which the BERT was evolved, seems necessary before diving deep into BERT. I would highly recommend to go over [[5]](#5) and [[6]](#6), blogs that contains amazing illustrations around these concepts, to have an overview of the necessary concepts.
 
