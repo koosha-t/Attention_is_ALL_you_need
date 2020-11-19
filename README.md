@@ -14,6 +14,9 @@ The BERT model is a result of a series of continuous progress in utilizing deep 
 
 Understanding the lower levels of the BERT cake, on which the BERT was evolved, seems necessary before diving deep into BERT. I would highly recommend to go over [[5]](#5) and [[6]](#6), blogs that contains amazing illustrations around these concepts, to have an overview of the necessary concepts.
 
+## Transformer
+
+The transformer was first proposed in a paper titled "Attention is All you Need" [[7]](#7). The Harvard nlp group has published a notebook containing the full implementation of the paper [[8]](#8).
 
 ## References
 <a id="1">[1]</a> 
@@ -33,3 +36,9 @@ Chris McCormick. The Inner Workings of BERT (2020)
 
 <a id="6">[6]</a>
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
+<a id="7">[7]</a>
+[Attention is All You Need](https://arxiv.org/abs/1706.03762)
+
+<a id="8">[8]</a>
+[The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
