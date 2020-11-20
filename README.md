@@ -4,11 +4,9 @@ The appearance of the BERT (*Bidiractional Encoder Representaions from Transform
 
 The BERT model is a result of a series of continuous progress in utilizing deep learning models for NLP tasks. Figure 1 shows the hierarchy of advancements  leading to BERT. I got the idea of this figure from [[4]](#4) written by Chris McCormick. So the credit shoud go to him! He called such an hierarchy the BERT mountain, however, I'd like to call it the BERT Cake here as it more looks like a cake to me!
 
-<p align="center">
+<p align="left">
   <img src='assets/BERT.jpeg' width=50% alt="BERT Cake"/>
-</p>
-<p align="center">
-  <em> Fig1: The BERT Cake </em>
+   <em> Fig1: The BERT Cake </em>
 </p>
 <br/><br/>
 
@@ -19,9 +17,9 @@ The transformer was first proposed in a paper titled "Attention is All you Need"
 
 The transfomer is a newer version of sequence to sequence transduction model (e.g. machine translation model - figure 2). Prior to the invention of the transformer, the dominant sequence transduction models were based on recurrent encoder and decoder networks, connected via attention mechanism ([[5]](#5),[[9]](#9),[[10]](#10)). 
 
-<p align="center">
+<p align="left">
   <img src='assets/The_transformer_encoders_decoders.png' width=50% alt="encoder_decoder"/>
-  <em> Fig2: Sequence Transduction Model </em>
+  <em> Fig2: Sequence Transduction Model (source: [[5]](#5))</em>
 </p>
 
 ## References
