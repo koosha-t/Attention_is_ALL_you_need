@@ -17,6 +17,8 @@ Understanding the lower levels of the BERT cake, on which the BERT was evolved, 
 ### Transformer
 The transformer was first proposed in a paper titled "Attention is All you Need" [[7]](#7). The Harvard nlp group has published a notebook containing the full implementation of the paper [[8]](#8).
 
+The transfomer is a newer version of sequence to sequence transduction model (e.g. machine translation model). Prior to the invention of the transformer, the dominant sequence transduction models were based on recurrent encoder and decoder networks, connected via attention mechanism ([[5]](#5),[[9]](#9),[[10]](#10)). 
+
 ## References
 <a id="1">[1]</a> 
 Chris McCormick. The Inner Workings of BERT (2020)
@@ -41,3 +43,9 @@ Chris McCormick. The Inner Workings of BERT (2020)
 
 <a id="8">[8]</a>
 [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+
+<a id="9">[9]</a>
+[Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+
+<a id="10">[10]</a>
+[Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025)
