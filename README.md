@@ -20,8 +20,10 @@ The transfomer is a newer version of sequence to sequence transduction model (e.
 
 <p align="center">
   <img src='assets/The_transformer_encoders_decoders.png' width=50% alt="encoder_decoder"/>
-  <em> Fig2: Sequence Transduction Model (source: [[5]](#5))</em>
+  <br/>
+  <em> Fig2: Sequence Transduction Model (source: [5])</em>
 </p>
+<br/><br/>
 
 ## References
 <a id="1">[1]</a> 
