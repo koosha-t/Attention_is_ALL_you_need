@@ -6,6 +6,7 @@ The BERT model is a result of a series of continuous progress in utilizing deep 
 
 <p align="center">
   <img src='assets/BERT.jpeg' width=50% alt="BERT Cake"/>
+  <br/>
    <em> Fig1: The BERT Cake </em>
 </p>
 <br/><br/>
@@ -19,7 +20,7 @@ The transfomer is a newer version of sequence to sequence transduction model (e.
 
 <p align="center">
   <img src='assets/The_transformer_encoders_decoders.png' width=50% alt="encoder_decoder"/>
-  <em align="left"> Fig2: Sequence Transduction Model (source: [[5]](#5))</em>
+  <em> Fig2: Sequence Transduction Model (source: [[5]](#5))</em>
 </p>
 
 ## References
