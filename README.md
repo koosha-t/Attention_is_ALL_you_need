@@ -25,7 +25,7 @@ The transfomer is a newer version of sequence to sequence transduction model (e.
 </p>
 <br/><br/>
 
-Using recurrent networks as endoer an deocder in transduction models leads to some limitations. As we know, hidden states in the RNN has temporal (time) dependencies to one another, meaning that ![equation](h(t)) would be pending ![equation](h(t-1)) computation and so on. This makes it imposible to benefit much from parallelizing operations during the training; consequently, training RNN based transduction models are expensive in both time and memory.
+Using recurrent networks as endoer an deocder in transduction models leads to some limitations. As we know, hidden states in the RNN has temporal (time) dependencies to one another, meaning that *h(t)* would be pending *h(t-1)* computation and so on. This makes it imposible to benefit much from parallelizing operations during the training; consequently, training RNN based transduction models are expensive in both time and memory.
 
 ## References
 <a id="1">[1]</a> 
