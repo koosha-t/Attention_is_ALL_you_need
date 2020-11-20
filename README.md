@@ -1,4 +1,4 @@
-# Complete BERT Tutorial (in progress)
+# Transformers & BERT (in progress)
 
 The appearance of the BERT (*Bidiractional Encoder Representaions from Transformers*) model in 2018 has certainly been an infelection point in the NLP world. "BERT models have demonstrated a very sophisticated knowledge of language, achieving human-level performance on __certain tasks__" [[1]](#1). BERT is a pre-trained model (trained by Google on a huge corpus), and can be fine-tuned and repurposed for different NLP tasks. BERT was first introduced by Google AI Language in 2019. See [[2]](#2) for the paper link and [[3]](#3) for the announcement made by Google about open sourcing BERT. 
 
