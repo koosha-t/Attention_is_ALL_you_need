@@ -13,7 +13,7 @@ The BERT model is a result of a series of continuous progress in utilizing deep 
 
 Understanding the lower levels of the BERT cake, on which the BERT was evolved, seems necessary before diving deep into BERT. I would highly recommend to go over [[5]](#5) and [[6]](#6), blogs that contains amazing illustrations around these concepts, to have an overview of the necessary concepts.
 
-### Transformer
+## Transformer
 The transformer was first proposed in a paper titled "Attention is All you Need" [[7]](#7). The Harvard nlp group has published a notebook containing the full implementation of the paper [[8]](#8).
 
 The transfomer is a newer version of sequence to sequence transduction model (e.g. machine translation model - figure 2). Prior to the invention of the transformer, the dominant sequence transduction models were based on recurrent encoder and decoder networks, connected via attention mechanism ([[5]](#5),[[9]](#9),[[10]](#10)). 
@@ -25,7 +25,10 @@ The transfomer is a newer version of sequence to sequence transduction model (e.
 </p>
 <br/><br/>
 
-Using recurrent networks as endoer an deocder in transduction models leads to some limitations. As we know, hidden states in the RNN has temporal (time) dependencies to one another, meaning that *h(t)* would be pending *h(t-1)* computation and so on. This makes it imposible to benefit much from parallelizing operations during the training; consequently, training RNN based transduction models are expensive in both time and memory. The Transformer, however, dispenses with recurrence and instead relies entirely on an attention mechanism to draw global dependenciecs between input and output. As mentioned in the main paper [[7]](#7): "The Tramsformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs".
+Using recurrent networks as endoer an deocder in transduction models leads to some limitations. As we know, hidden states in the RNN has temporal (time) dependencies to one another, meaning that *h(t)* would be pending *h(t-1)* computation and so on. This makes it imposible to benefit much from parallelizing operations during the training; consequently, training RNN based transduction models are expensive in both time and memory. The Transformer, however, dispenses with recurrence and instead relies entirely on an attention mechanism to draw global dependenciecs between input and output. As mentioned in the main paper [[7]](#7): "The Tramsformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs". As claimed by the authors: "The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and ouput without using sequence-aligned RNNs or convolution".
+
+### The Transformer Architecture
+
 
 ## References
 <a id="1">[1]</a> 
