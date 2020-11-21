@@ -25,7 +25,7 @@ The transfomer is a newer version of sequence to sequence transduction model (e.
 </p>
 <br/><br/>
 
-Using recurrent networks as endoer an deocder in transduction models leads to some limitations. As we know, hidden states in the RNN has temporal (time) dependencies to one another, meaning that *h(t)* would be pending *h(t-1)* computation and so on. This makes it imposible to benefit much from parallelizing operations during the training; consequently, training RNN based transduction models are expensive in both time and memory.
+Using recurrent networks as endoer an deocder in transduction models leads to some limitations. As we know, hidden states in the RNN has temporal (time) dependencies to one another, meaning that *h(t)* would be pending *h(t-1)* computation and so on. This makes it imposible to benefit much from parallelizing operations during the training; consequently, training RNN based transduction models are expensive in both time and memory. The Transformer dispenses with recurrence and instead relies entirely on an attention mechanism to draw global dependenciecs between input and output. As mentioned in the main paper [[7]](#7): "The Tramsformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs".
 
 ## References
 <a id="1">[1]</a> 
