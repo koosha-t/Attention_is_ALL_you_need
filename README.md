@@ -37,6 +37,15 @@ The encoder and the decoder components of the transformer are each composed of 6
 </p>
 <br/><br/>
 
+Each of the six encoders in the encoder stack has two sub-layers. The first sub-layer is a multi-head self-attention mechanism (more on this in the following sections), and the second is a fully connected feed-forward network (Fig 4).
+
+<p align="center">
+  <img src='assets/Transformer_encoder.png' width=50% alt="encoder_decoder"/>
+  <br/>
+  <em> Fig4: Transformer Encoder (source: [5])</em>
+</p>
+<br/><br/>
+
 ## References
 <a id="1">[1]</a> 
 Chris McCormick. The Inner Workings of BERT (2020)
