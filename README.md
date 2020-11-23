@@ -21,7 +21,7 @@ The transfomer is a newer version of sequence to sequence transduction model (e.
 <p align="center">
   <img src='assets/The_transformer_encoders_decoders.png' width=50% alt="encoder_decoder"/>
   <br/>
-  <em> Fig2: Sequence Transduction Model (source: [5])</em>
+  <em> Fig2: Sequence Transduction Model (source: [6])</em>
 </p>
 <br/><br/>
 
@@ -33,7 +33,7 @@ The encoder and the decoder components of the transformer are each composed of 6
 <p align="center">
   <img src='assets/The_transformer_encoder_decoder_stack.png' width=50% alt="encoder_decoder"/>
   <br/>
-  <em> Fig3: The Transformer Decoder and Encoder Stacks (source: [5])</em>
+  <em> Fig3: The Transformer Decoder and Encoder Stacks (source: [6])</em>
 </p>
 <br/><br/>
 
@@ -42,7 +42,7 @@ Each of the six encoders in the encoder stack has two sub-layers. The first sub-
 <p align="center">
   <img src='assets/Transformer_encoder.png' width=50% alt="encoder_decoder"/>
   <br/>
-  <em> Fig4: Transformer Encoder (source: [5])</em>
+  <em> Fig4: Transformer Encoder (source: [6])</em>
 </p>
 <br/><br/>
 
