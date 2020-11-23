@@ -28,7 +28,14 @@ The transfomer is a newer version of sequence to sequence transduction model (e.
 Using recurrent networks as endoer an deocder in transduction models leads to some limitations. As we know, hidden states in the RNN has temporal (time) dependencies to one another, meaning that *h(t)* would be pending *h(t-1)* computation and so on. This makes it imposible to benefit much from parallelizing operations during the training; consequently, training RNN based transduction models are expensive in both time and memory. The Transformer, however, dispenses with recurrence and instead relies entirely on an attention mechanism to draw global dependenciecs between input and output. As mentioned in the main paper [[7]](#7): "The Tramsformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs". As claimed by the authors: "The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and ouput without using sequence-aligned RNNs or convolution".
 
 ### The Transformer Architecture
+The encoder and the decoder components of the transformer are each composed of 6 layers of encoders and decoders (Fig 3).
 
+<p align="center">
+  <img src='assets/The_transformer_encoder_decoder_stack.png' width=50% alt="encoder_decoder"/>
+  <br/>
+  <em> Fig3: The Transformer Decoder and Encoder Stacks (source: [5])</em>
+</p>
+<br/><br/>
 
 ## References
 <a id="1">[1]</a> 
